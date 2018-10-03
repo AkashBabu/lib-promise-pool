@@ -1,7 +1,7 @@
 {
-    "name": "template-lib",
+    "name": "lib-promise-pool",
     "version": "1.0.0",
-    "description": "Template for Nodejs libraries",
+    "description": "A nodejs library for executing the job concurrently while controlling the rate of concurrency",
     "main": "dist/index.js",
     "scripts": {
         "_test": "mocha --require babel-core/register --require babel-polyfill test/**/*.test.js",
@@ -17,15 +17,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/AkashBabu/template-lib.git"
+        "url": "git+https://github.com/AkashBabu/lib-promise-pool.git"
     },
     "keywords": [],
     "author": "001akashbabu@gmail.com",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/AkashBabu/template-lib/issues"
+        "url": "https://github.com/AkashBabu/lib-promise-pool/issues"
     },
-    "homepage": "https://github.com/AkashBabu/template-lib#readme",
+    "homepage": "https://github.com/AkashBabu/lib-promise-pool#readme",
     "precommit": [
         "lint",
         "coverage",
