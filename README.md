@@ -36,11 +36,11 @@ console.log(diff) // 3
 
 | Param                 | Description   |
 | :-------------------- | :-----------  |
-| *array*               | Array containing input data to worker |
-| *worker*              | Async worker function |
-| *concurrency*         | Number of concurrent jobs to be executed |
-| *options*             | Options for controlling the execution of jobs |
-| *options.stopOnErr*   | Whether to stop executing the rest of the promises if a failure is detected. `Defaults to false` |
+| `array`               | Array containing input data to worker |
+| `worker`              | Async worker function |
+| `concurrency`         | Number of concurrent jobs to be executed |
+| `options`             | Options for controlling the execution of jobs |
+| `options.stopOnErr`   | Whether to stop executing the rest of the promises if a failure is detected. *Defaults to false* |
 
 
 ## Test
