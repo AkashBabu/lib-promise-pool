@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import PromisePool from '../src/index';
+import PromisePool from '../dist';
 
 async function worker(d) {
     return new Promise(res => setTimeout(() => res(d), d * 1000));
