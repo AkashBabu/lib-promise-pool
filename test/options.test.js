@@ -1,6 +1,6 @@
 import * as chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
-import PromisePool from '../dist/';
+import PromisePool from '../';
 
 chai.use(chaiAsPromised);
 
