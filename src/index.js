@@ -12,7 +12,7 @@
  *
  * @returns {Array<Object>}
  */
-async function PromisePool(arr = [], worker, concurrency = 1, options = {}) {
+async function PromisePool(arr, worker, concurrency = 1, options = {}) {
     const { stopOnErr = false } = options;
 
     const end = arr.length;

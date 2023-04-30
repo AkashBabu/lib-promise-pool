@@ -12,7 +12,7 @@
                                                                                                                                                                                                                                                                                                                                                                                             *
                                                                                                                                                                                                                                                                                                                                                                                             * @returns {Array<Object>}
                                                                                                                                                                                                                                                                                                                                                                                             */var PromisePool = function () {var _ref = (0, _asyncToGenerator3.default)( /*#__PURE__*/_regenerator2.default.mark(
-    function _callee2() {var arr = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];var worker = arguments[1];var concurrency = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 1;
+    function _callee2(arr, worker) {var concurrency = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 1;
 
 
 
@@ -48,7 +48,7 @@
 
 
                             _promise2.default.all(runners));case 15:return _context2.abrupt("return",
-                        result);case 16:case "end":return _context2.stop();}}}, _callee2, this);}));return function PromisePool() {return _ref.apply(this, arguments);};}();function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+                        result);case 16:case "end":return _context2.stop();}}}, _callee2, this);}));return function PromisePool(_x3, _x4) {return _ref.apply(this, arguments);};}();function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 
 
 module.exports = PromisePool;
