@@ -1,6 +1,6 @@
 {
     "name": "lib-promise-pool",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "A nodejs library for executing the job concurrently while controlling the rate of concurrency",
     "main": "dist/index.js",
     "scripts": {
